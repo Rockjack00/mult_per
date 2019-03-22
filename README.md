@@ -6,10 +6,10 @@ Search is based on a seed number of digits (default is 233) based on the current
 Numberphile Video: https://www.youtube.com/watch?v=Wim9WJeDTHQ&t=3s
 
 ## Assumptions:
-Any starting number containing a 5 will have a persistance of 3 or lower (thus any integer containing a 5 is omitted).
-The smallest value must have all digits in ascending order (thus any integer containing 1 is omitted).
-The first digit may be a 2, 3, 4, 6, 7, 8, or 9.
-The any digit after the the first must be 6 or greater due to smallest value rule.
+* Any starting number containing a 5 will have a persistance of 3 or lower (thus any integer containing a 5 is omitted).
+* The smallest value must have all digits in ascending order (thus any integer containing 1 is omitted).
+* The first digit may be a 2, 3, 4, 6, 7, 8, or 9.
+* The any digit after the the first must be 6 or greater due to smallest value rule.
 Example:
   per(2377) = 2 * 3 * 7 * 7 = 294
   per(677) = 6 * 7 * 7 = 294
