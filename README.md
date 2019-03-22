@@ -3,6 +3,8 @@ This script searches for numbers with a multiplication persistance of greater th
 Search additionally looks for the smallest value of any given persistance.
 Search is based on a seed number of digits (default is 233) based on the current record.
 
+Numberphile Video: https://www.youtube.com/watch?v=Wim9WJeDTHQ&t=3s
+
 ## Assumptions:
 Any starting number containing a 5 will have a persistance of 3 or lower (thus any integer containing a 5 is omitted).
 The smallest value must have all digits in ascending order (thus any integer containing 1 is omitted).
